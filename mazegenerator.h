@@ -21,8 +21,8 @@ public:
     struct Pos {
       int x;
       int y;
-      Pos() {} //creadora per defecte
-      Pos(int ii, int jj) : x(ii), y(jj) { }    //creadora which set i = ii and j = jj (ii and jj are the parameters)
+      Pos() {}
+      Pos(int ii, int jj) : x(ii), y(jj) { }
     };
       std::vector <RectangleShape> Maze;
 private:
